@@ -1,0 +1,18 @@
+#main_bus_search{
+	width:450px;
+	display:inline-block;
+	padding-left:20px;
+}
+
+#main_info{
+	width:450px;
+	display:inline-block;
+	float:right;
+	padding-right:20px;
+}
+
+#advert{
+	width: 321px;
+	height: 267px;
+	margin:20px;
+}

@@ -1,0 +1,100 @@
+/*a.seats {
+	padding:4px 9px;
+	position:relative;
+	top:5px;
+	background-color:#333;
+	font:bold 12px Verdana;
+	color:#fff
+}
+
+a.seats:hover{
+	background-color:#000;
+	text-decoration:none
+}*/
+
+#seat_arrangement {
+	font:11px verdana;
+	color:#999;
+	padding:10px;
+	border:#ccc solid thin;
+	border-radius:8px;
+	position:absolute;
+}
+
+.seat {
+	width:20px;
+	height:18px;
+	cursor:pointer;
+	margin:7px;
+	background-image:url('../images/seat.gif');
+	background-repeat:no-repeat;
+}
+
+.booked_seat {
+	width:20px;
+	height:18px;
+	background-image:url('../images/booked_seat.gif') !important;
+	margin:6px; background-repeat:no-repeat; cursor:default;
+}
+
+.seat:hover{background-image:url('../images/highlighted_seat.gif')}
+
+#right_seats, #left_seats {
+	position:relative;
+	width:420px;
+	padding:4px;
+	overflow:auto;
+}
+
+#right_seats {
+	top:75px;
+}
+
+#left_seats {
+	top:-75px;
+}
+
+#seat_wrap {
+	padding-right:8px;
+	background-color:#fff;
+	border:#ccc solid thin;
+	border-radius:7px;
+	margin-top:13px;
+	margin-left:70px;
+	float:left;
+}
+
+#seat_tips {
+	float:right;
+	margin-right:20px
+}
+
+#seat_tips > ul {
+	list-style-type:none;
+	margin:0px; padding:0px;
+	line-height:21px
+}
+
+#seat_tips > ul > li {line-height:24px}
+
+#available_seat, #selected_seat, #booked_seat {background-image:url(../images/seat.gif); background-repeat:no-repeat; background-position:0px 5px; padding-left:25px;}
+
+#selected_seat {background-image:url(../images/selected_seat.gif);}
+
+#booked_seat {background-image:url(../images/booked_seat.gif);}
+
+.cols {
+	position:relative;
+	float:left;
+	width:20px;
+	padding:2px;
+	margin-right:2px;
+	bottom:0;
+}
+
+.steering {
+	height:48px;
+	background-image:url(../images/steering.gif);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
